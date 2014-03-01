@@ -7,4 +7,5 @@
                  [org.clojure/core.typed "0.2.34"]]
   :main ^:skip-aot typed.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}}
+  :core.typed {:check [typed.core]})
