@@ -1,36 +1,26 @@
-# typed
+# Typed Clojure Practice
 
-FIXME: description
+## Preparation
 
-## Installation
+Add `[lein-typed "0.3.1"]` to `{:user {:plugins [ __here__ ] }}` in `$HOME/.lein/profiles.clj`.
 
-Download from http://example.com/FIXME.
+Run `lein new app a-name-as-you-like`.
+
+Add `[org.clojure/core.typed "0.2.34"]` to `(defproject ... :dependencies [ __here__ ] ...)` in `a-name-as-you-like/project.clj`
 
 ## Usage
 
-FIXME: explanation
+```sh
+lein typed check
+```
 
-    $ java -jar typed-0.1.0-standalone.jar [args]
+## References
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+* [clojure/core.typed](https://github.com/clojure/core.typed)
+* [typedclojure/lein-typed](https://github.com/typedclojure/lein-typed)
 
 ## License
 
-Copyright © 2014 FIXME
+[MIT](http://opensource.org/licenses/MIT)
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright 2014 ka
